@@ -1,3 +1,3 @@
-# `@solana/buffer-layout-utils`
+# `@bbachain/buffer-layout-utils`
 
 Coming soon.

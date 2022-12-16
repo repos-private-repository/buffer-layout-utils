@@ -1,4 +1,4 @@
-import { Layout, u8 } from '@solana/buffer-layout';
+import { Layout, u8 } from '@bbachain/buffer-layout';
 import { encodeDecode } from './base';
 
 export const bool = (property?: string): Layout<boolean> => {

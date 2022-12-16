@@ -1,8 +1,8 @@
 {
-    "name": "@solana/buffer-layout-utils",
-    "version": "0.2.0",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
-    "repository": "https://github.com/solana-labs/buffer-layout-utils",
+    "name": "@bbachain/buffer-layout-utils",
+    "version": "0.0.1",
+    "author": "BBAChain Maintainers <maintainers@bbachain.net>",
+    "repository": "https://github.com/bbachain/buffer-layout-utils",
     "license": "Apache-2.0",
     "engines": {
         "node": ">= 10"
@@ -38,8 +38,8 @@
         "prepare": "yarn build"
     },
     "dependencies": {
-        "@solana/buffer-layout": "^4.0.0",
-        "@solana/web3.js": "^1.32.0",
+        "@bbachain/buffer-layout": "^0.0.1",
+        "@bbachain/web3.js": "^1.0.3",
         "bigint-buffer": "^1.1.5",
         "bignumber.js": "^9.0.1"
     },
@@ -47,6 +47,7 @@
         "@types/eslint": "^8.4.0",
         "@types/eslint-plugin-prettier": "^3.1.0",
         "@types/node": "^16.11.13",
+        "@types/node-fetch": "^2.6.2",
         "@types/prettier": "^2.4.3",
         "@typescript-eslint/eslint-plugin": "^5.10.0",
         "@typescript-eslint/parser": "^5.10.0",

@@ -1,4 +1,4 @@
-import { Layout } from '@solana/buffer-layout';
+import { Layout } from '@bbachain/buffer-layout';
 
 export interface EncodeDecode<T> {
     decode(buffer: Buffer, offset?: number): T;
