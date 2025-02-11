@@ -1,7 +1,7 @@
 {
     "name": "@bbachain/buffer-layout-utils",
-    "version": "0.0.1",
-    "author": "BBAChain Maintainers <maintainers@bbachain.net>",
+    "version": "1.0.0",
+    "author": "BBAChain Labs <developers@bbachain.com>",
     "repository": "https://github.com/bbachain/buffer-layout-utils",
     "license": "Apache-2.0",
     "engines": {
@@ -23,7 +23,8 @@
     "types": "lib/types/index.d.ts",
     "exports": {
         "import": "./lib/esm/index.mjs",
-        "require": "./lib/cjs/index.js"
+        "require": "./lib/cjs/index.js",
+        "types": "./lib/types/index.d.ts"
     },
     "scripts": {
         "clean": "shx rm -rf lib",
@@ -38,8 +39,8 @@
         "prepare": "yarn build"
     },
     "dependencies": {
-        "@bbachain/buffer-layout": "^0.0.1",
-        "@bbachain/web3.js": "^1.0.3",
+        "@bbachain/buffer-layout": "^1.0.0",
+        "@bbachain/web3.js": "^1.1.3",
         "bigint-buffer": "^1.1.5",
         "bignumber.js": "^9.0.1"
     },
